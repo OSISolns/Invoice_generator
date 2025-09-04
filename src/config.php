@@ -2,8 +2,8 @@
 // Database configuration
 $host = 'localhost';
 $dbname = 'invoice_generator';
-$username = 'root';
-$password = '';
+$username = 'invoice_user';
+$password = 'invoice_password';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
