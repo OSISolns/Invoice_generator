@@ -327,4 +327,10 @@ function getPerformanceMetrics($pdo) {
     
     return $metrics;
 }
+
+// Check if user is logged in
+function isLoggedIn() {
+    session_start();
+    return isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'] === true;
+}
 ?>
