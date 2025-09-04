@@ -7,8 +7,8 @@
 // Database configuration
 $host = 'localhost';
 $dbname = 'invoice_generator';
-$username = 'root';
-$password = '';
+$username = 'invoice_user';
+$password = 'invoice_password';
 
 echo "<!DOCTYPE html>
 <html lang='en'>
